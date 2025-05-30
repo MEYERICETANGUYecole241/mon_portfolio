@@ -4,7 +4,8 @@
 
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import Image from 'next/image';
+
 
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { Mail, Phone, Linkedin } from "lucide-react"
@@ -14,7 +15,7 @@ export default function Home() {
     <main className="min-h-screen p-6 bg-blue-200 text-gray-900" style={{ fontFamily: 'Times New Roman, serif' }}>
       {/* Header */}
       <section className="text-center py-10">
-        <img
+        <Image
           src="/profil.2.jpeg"
           alt="Meyer Ice Tanguy"
           className="mx-auto rounded-full w-40 h-40 object-cover shadow-lg"
