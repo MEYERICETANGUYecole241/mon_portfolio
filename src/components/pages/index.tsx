@@ -42,8 +42,10 @@ export default function Home() {
   <div className="bg-white/20 p-6 md:p-8 rounded-2xl shadow-2xl backdrop-blur-lg border border-white/30 space-y-4 mt-6">
     <h1 className="text-5xl font-bold">MEYER ICE TANGUY</h1>
     <p className="text-xl text-gray-200">
-      Développeur web en formation, engagé dans les enjeux RSE et énergétiques,
-      je conçois des solutions numériques et durables pour accompagner la transformation des entreprises.
+      Développeur web frontend issu d’une formation en économie du développement durable, 
+      j’allie rigueur analytique, sens de l’impact sociétal et maîtrise des technologies 
+      modernes pour accompagner les entreprises dans leur transformation numérique responsable.
+    
     </p>
   </div>
 
@@ -65,7 +67,7 @@ export default function Home() {
       <PopoverTrigger asChild>
         <button className="bg-blue-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition inline-flex items-center justify-center">
           <Mail className="mr-2" />
-          Contact
+          Contacts
         </button>
       </PopoverTrigger>
       <PopoverContent className="bg-white dark:bg-gray-900 rounded-xl shadow-2xl p-6 text-left space-y-4 text-sm">

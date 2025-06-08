@@ -12,42 +12,48 @@ export default function Projets() {
 
           <div className="grid gap-6 sm:grid-cols-2 ">
             {[
+ {
+  title: "🌍 EcoConnect",
+  desc: "Landing page Next.js HTML/CSS pour une plateforme communautaire dédiée à l'environnement et au développement durable.",
+  tag: "Énergie, développement durable, frontend",
+  link: "https://ecoconnect-seven.vercel.app/" 
+},
   {
-    title: "🌍 Transition énergétique - SEEG",
-    desc: "Landing page HTML/CSS",
-    tag: "Énergie, développement durable, frontend",
-    link: "https://ton-lien.vercel.app" // à remplacer
-  },
-  {
-    title: "🧮 RSE à la SEEG",
-    desc: "Rapport et suivi des projets RSE",
-    tag: "Responsabilité Sociétale, analyse de projet",
-    link: "https://ton-lien.com"
-  },
+  title: "🧮 SEEG",
+  desc: "Refonte du site vitrine de la SEEG avec Next.js 14",
+  tag: "Next.js / Tailwind CSS/ Shadcn UI",
+  link: "https://seeg-refonte.vercel.app/"
+},
+
   {
     title: "🚚 Logistique - Mousse Industrie",
     desc: "Coordination transport",
     tag: "Logistique, gestion d’équipe",
     link: "https://ton-lien.com"
   },
+
   {
-    title: "💻 Formation en développement web",
-    desc: "Projets JavaScript, Node.js, React, Next.js",
-    tag: "Développement fullstack",
-    link: "https://ton-lien-github.com"
-  },
-  {
-    title: "🌐 Projet de site Immobilier",
-    desc: "Wireframe, zoning, maquettes",
-    tag: "UX/UI, HTML/CSS, maquette",
-    link: "https://elie-three.vercel.app/"
-  },
-  {
-    title: "📄 Portfolio web (en cours)",
-    desc: "Next.js, Shadcn UI, NextAuth",
-    tag: "Frontend moderne, authentification",
-    link: "https://xori-group.vercel.app/"
-  },
+  title: "💻 Projet hôtelier",
+  desc: "Site vitrine d'un établissement hôtelier fictif avec mise en page responsive",
+  tag: "HTML / CSS / UX Design",
+  link: "https://i-tan-tau.vercel.app/"
+},
+
+{
+  title: "🌐 Projet de site immobilier",
+  desc: "Création de wireframe, zoning et maquettes pour un site immobilier",
+  tag: "UX/UI Design / HTML / CSS",
+  link: "https://elie-three.vercel.app/"
+},
+
+{
+  title: "📄 Projet Xori-Group (en cours)",
+  desc: "Développement d'une interface moderne avec Next.js, Shadcn UI et NextAuth",
+  tag: "Next.js / Shadcn UI / Authentification",
+  link: "https://xori-group.vercel.app/"
+}
+
+
 ].map((proj, i) => (
   // bloc Card avec le bouton comme ci-dessus
 
