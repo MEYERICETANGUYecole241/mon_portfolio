@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Card, CardContent } from "@/components/ui/card";
-import { ExternalLink, Github, Code, Palette, Zap, Globe } from "lucide-react";
+import { ExternalLink, Code, Palette, Zap, Globe } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Projets() {
@@ -80,7 +80,7 @@ export default function Projets() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: [0.25, 0.46, 0.45, 0.94] as any
+        ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number]
       }
     }
   };
@@ -105,7 +105,7 @@ export default function Projets() {
             Mes <span className="bg-gradient-to-r from-sky-600 to-violet-600 bg-clip-text text-transparent">Réalisations</span>
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Découvrez une sélection de projets qui reflètent ma passion pour l'innovation technique et l'excellence design.
+            Découvrez une sélection de projets qui reflètent ma passion pour l&rsquo;innovation technique et l&rsquo;excellence design.
           </p>
         </motion.div>
 
@@ -199,7 +199,7 @@ export default function Projets() {
               Prêt à collaborer ?
             </h3>
             <p className="text-slate-600 mb-6 max-w-md mx-auto">
-              Discutons de votre prochain projet et créons ensemble quelque chose d'exceptionnel.
+              Discutons de votre prochain projet et créons ensemble quelque chose d&rsquo;exceptionnel.
             </p>
             <motion.a
               href="mailto:icetanguy065@gmail.com"

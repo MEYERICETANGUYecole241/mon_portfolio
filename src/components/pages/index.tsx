@@ -1,7 +1,7 @@
 "use client";
 
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { Mail, Phone, Linkedin, ArrowDown, Github, ExternalLink } from "lucide-react";
+import { Mail, Phone, Linkedin, ArrowDown, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -119,10 +119,10 @@ export default function Home() {
               transition={{ duration: 1, delay: 1 }}
               className="text-lg md:text-xl text-slate-200 leading-relaxed max-w-3xl mx-auto"
             >
-              Passionné par la création d'expériences web modernes, je transforme vos idées en 
+              Passionné par la création d&#39;expériences web modernes, je transforme vos idées en 
               <span className="text-sky-300 font-semibold"> solutions digitales innovantes</span>. 
-              Avec une approche centrée sur l'impact et la performance, 
-              j'accompagne les entreprises dans leur <span className="text-violet-300 font-semibold">transformation numérique durable</span>.
+              Avec une approche centrée sur l&#39;impact et la performance, 
+              j&#39;accompagne les entreprises dans leur <span className="text-violet-300 font-semibold">transformation numérique durable</span>.
             </motion.p>
 
             {/* Action Buttons */}
