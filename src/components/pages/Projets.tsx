@@ -60,7 +60,16 @@ export default function Projets() {
       icon: <Code className="w-6 h-6" />,
       category: "B2B Platform",
       featured: true
-    }
+    },
+    {
+  title: "TalentGabon RH - Plateforme de Digitalisation RH",
+  desc: "Plateforme digitale dédiée à la gestion des talents, conçue pour répondre aux besoins spécifiques des entreprises en Afrique. Optimisation des processus RH avec une approche moderne et contextuelle.",
+  tag: "Next.js 14 • Shadcn UI • Optimisation SEO",
+  link: "https://rh2-flax.vercel.app/ ",
+  icon: <Zap className="w-6 h-6\" />,
+  category: "Plateforme RH",
+  featured: true
+}
   ];
 
   const containerVariants = {
